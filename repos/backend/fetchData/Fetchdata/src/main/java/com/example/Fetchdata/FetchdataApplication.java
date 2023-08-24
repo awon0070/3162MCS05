@@ -24,8 +24,7 @@ public class FetchdataApplication {
 	@CrossOrigin(origins = "http://localhost:8000")
 	@RestController
 	public class DataController {
-
-
+		
 
 		@PostMapping("/api/saveData")
 		public ResponseEntity<Map<String, String>> saveData(@RequestBody TextData textData) {
