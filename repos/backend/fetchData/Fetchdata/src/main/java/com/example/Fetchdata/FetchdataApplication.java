@@ -21,21 +21,17 @@ public class FetchdataApplication {
 		SpringApplication.run(FetchdataApplication.class, args);
 	}
 
-	@CrossOrigin(origins = "http://localhost:8000")
+	@CrossOrigin(origins = "http://192.168.19" + ".38:8000")
 	@RestController
-	public class DataController {
-
-
+	public static class DataController {
 		@PostMapping("/api/saveData")
 		public ResponseEntity<Map<String, String>> saveData(@RequestBody TextData textData) {
 			String text = textData.getText();
-
-			// Print the received data to the server console
+			//Print the received data to the server console
 			System.out.println("Received data: " + textData);
 			System.out.println("Received data: " + text);
 			Map<String, String> response = new HashMap<>();
 			response.put("message", "Data received and processed: " + text);
-
 			return ResponseEntity.ok()
 					.contentType(MediaType.APPLICATION_JSON)
 					.body(response);

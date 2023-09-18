@@ -1,0 +1,607 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/disdriv_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/doid/imports/disdriv_import.owl"
+     versionIRI="http://purl.obolibrary.org/obo/doid/releases/2023-07-24/imports/disdriv_import.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal>Drivers of human diseases including environmental, maternal and social exposures.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal>Disease Drivers</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+        <IRI>https://creativecommons.org/publicdomain/zero/1.0/</IRI>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_50904"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001579"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C163032"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_50904"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000002"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000003"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000005"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000006"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000013"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000014"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001579"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C163032"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DISDRIV_0000003"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000050</IRI>
+        <Literal>part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000051</IRI>
+        <Literal>has part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://medlineplus.gov/alcohol.html</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_30879</IRI>
+        <Literal>A compound in which a hydroxy group, -OH, is attached to a saturated carbon atom.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_30879</IRI>
+        <Literal>CHEBI:30879</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_30879</IRI>
+        <Literal>alcohol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.niehs.nih.gov/health/topics/agents/allergens/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_50904</IRI>
+        <Literal>A chemical compound, or part thereof, which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_50904</IRI>
+        <Literal>CHEBI:50904</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_50904</IRI>
+        <Literal>allergen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC4517741/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000000</IRI>
+        <Literal>Environmental or genetic mechanisms driving the occurrance of complex diseases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000000</IRI>
+        <Literal>DISDRIV:0000000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000000</IRI>
+        <Literal>disease driver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.who.int/health-topics/micronutrients</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000001</IRI>
+        <Literal>A disease driver that is comprised of a shortage of a nutrient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000001</IRI>
+        <Literal>DISDRIV:0000001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000001</IRI>
+        <Literal>nutrient deficiency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://pubmed.ncbi.nlm.nih.gov/29709281/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000002</IRI>
+        <Literal>A disease driver that is related to or concerning the interaction of social and economic factors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000002</IRI>
+        <Literal>DISDRIV:0000002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000002</IRI>
+        <Literal>socioeconomic driver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.ncbi.nlm.nih.gov/books/NBK45737/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000003</IRI>
+        <Literal>A disease driver that is of biological origin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000003</IRI>
+        <Literal>DISDRIV:0000003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000003</IRI>
+        <Literal>biological driver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://ods.od.nih.gov/factsheets/Biotin-Consumer/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000004</IRI>
+        <Literal>A nutrient deficiency of vitamin B7 (biotin) foods like eggs, milk, and bananas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000004</IRI>
+        <Literal>DISDRIV:0000004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000004</IRI>
+        <Literal>deficiency of biotin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://ods.od.nih.gov/factsheets/Choline-Consumer/</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:url:https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000005</IRI>
+        <Literal>A nutrient deficiency.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000005</IRI>
+        <Literal>DISDRIV:0000005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000005</IRI>
+        <Literal>deficiency of choline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://pubmed.ncbi.nlm.nih.gov/29351546/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000006</IRI>
+        <Literal>A disease driver that is a chemical.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000006</IRI>
+        <Literal>DISDRIV:0000006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000006</IRI>
+        <Literal>chemical driver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000007</IRI>
+        <Literal>DISDRIV:0000007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DISDRIV_0000007</IRI>
+        <Literal xml:lang="en">deficiency of vitamin C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://pubmed.ncbi.nlm.nih.gov/29351546/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000007</IRI>
+        <Literal>An exposure stressor that is a change in the distributions, abundance and relations of organisms and their interactions with the environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000007</IRI>
+        <Literal>ExO:0000007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000007</IRI>
+        <Literal>ecological perturbations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://pubmed.ncbi.nlm.nih.gov/29351546/</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.epa.gov/acidrain/what-acid-rain</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000013</IRI>
+        <Literal>An ecological perturbation that is acidic water, usually pH 2.5 to 4.5, which poisons the ecosystem and adversely affects plants, fishes, and mammals. It is caused by industrial pollutants, mainly sulfur oxides and nitrogen oxides, emitted into the atmosphere and returning to earth in the form of acidic rain water.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000013</IRI>
+        <Literal>ENVO:03000127</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000013</IRI>
+        <Literal>OMIT:0016047</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000013</IRI>
+        <Literal>ExO:0000013</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000013</IRI>
+        <Literal>acid rain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://pubmed.ncbi.nlm.nih.gov/29351546/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000014</IRI>
+        <Literal>An ecological pertubation that is any significant change in measures of climate (such as temperature, precipitation, or wind) lasting for an extended period (decades or longer). It may result from natural factors such as changes in the sun&apos;s intensity, natural processes within the climate system such as changes in ocean circulation, or human activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000014</IRI>
+        <Literal>ExO:0000014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000014</IRI>
+        <Literal>climate change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://en.wikipedia.org/wiki/Poverty</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.un.org/en/global-issues/ending-poverty</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.worldbank.org/en/topic/poverty/overview</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000015</IRI>
+        <Literal>A psychosocial agent that is a situation in which the level of living of an individual, family, or group is below the standard of the community. It is often related to a specific income level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000015</IRI>
+        <Literal>ExO:0000015</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000015</IRI>
+        <Literal>poverty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://en.m.wikipedia.org/wiki/Alcoholic_drink</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001579</IRI>
+        <Literal>An alcoholic drink (or alcoholic beverage) is a drink that contains ethanol, a type of alcohol produced by fermentation of grains, fruits, or other sources of sugar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001579</IRI>
+        <Literal>FOODON:00001579</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001579</IRI>
+        <Literal>alcoholic beverage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:http://purl.obolibrary.org/obo/iao.owl</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
+        <Literal>The official definition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.osha.gov/botulism</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C163032</IRI>
+        <Literal>A biological driver that is botulinum toxin, caused by a toxin made by a bacterium called Clostridium botulinum.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C163032</IRI>
+        <Literal>NCIT:C163032</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C163032</IRI>
+        <Literal>botulinum toxin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RO_0000087</IRI>
+        <Literal>has role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:http://purl.org/dc/elements/1.1/description</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.org/dc/elements/1.1/description</IRI>
+        <Literal>Description of the ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/elements/1.1/description</IRI>
+        <Literal>description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:http://purl.org/dc/elements/1.1/title</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.org/dc/elements/1.1/title</IRI>
+        <Literal>Title of the ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/elements/1.1/title</IRI>
+        <Literal>title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:http://purl.org/dc/terms/license</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.org/dc/terms/license</IRI>
+        <Literal>License of the ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/terms/license</IRI>
+        <Literal>license</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:http://www.geneontology.org/formats/oboInOwl#hasDbXref</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasDbXref</IRI>
+        <Literal>Reference database or publication source.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasDbXref</IRI>
+        <Literal>database_cross_reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasExactSynonym</IRI>
+        <Literal>has exact synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:http://purl.obolibrary.org/obo/IAO_0020000</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#id</IRI>
+        <Literal>An identifier for an individual entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#id</IRI>
+        <Literal>id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:http://www.w3.org/2000/01/rdf-schema#label</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal>A human readable name for this class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal>label</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,768 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl"
+     versionIRI="http://purl.obolibrary.org/obo/doid/releases/2023-07-24/imports/foodon_import.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Sourced from http://purl.obolibrary.org/obo/foodon/releases/2023-05-03/foodon.owl</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001251"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001262"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001264"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001275"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001611"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001615"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001623"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001684"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001704"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001705"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001714"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001717"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001750"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001771"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001785"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001792"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001811"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002277"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002319"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002487"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00003652"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004242"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001046"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001092"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001105"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001251"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001105"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001274"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001107"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001256"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001109"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001107"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001118"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001107"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001133"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001714"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001151"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001158"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001163"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001163"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001164"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001163"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001164"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001165"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001175"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001242"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001242"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001248"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001251"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001256"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001257"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001256"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001262"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001264"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001262"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001274"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001275"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001293"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001046"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001293"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001611"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001158"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001615"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002277"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001623"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002220"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001684"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001248"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001704"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001704"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002156"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001705"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001704"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001714"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001717"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002277"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001750"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001248"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001771"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001118"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001771"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001257"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001785"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001792"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001792"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001811"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002044"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002071"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002075"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002220"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002084"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002095"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002277"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002141"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002156"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002156"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002161"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002277"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002185"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002220"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001248"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002239"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001792"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002244"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002277"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002319"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001623"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002487"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00003652"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00003652"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004242"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001015</IRI>
+        <Literal xml:lang="en">plant food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001046</IRI>
+        <Literal xml:lang="en">animal seafood product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001057</IRI>
+        <Literal xml:lang="en">plant fruit food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001092</IRI>
+        <Literal xml:lang="en">vertebrate animal food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001105</IRI>
+        <Literal xml:lang="en">avian egg food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001107</IRI>
+        <Literal xml:lang="en">bovine dairy food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001109</IRI>
+        <Literal xml:lang="en">caprine dairy food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001118</IRI>
+        <Literal xml:lang="en">cattle dairy food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001133</IRI>
+        <Literal xml:lang="en">condiment food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001150</IRI>
+        <Literal xml:lang="en">cucurbit fruit food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001151</IRI>
+        <Literal xml:lang="en">citrus fruit food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001158</IRI>
+        <Literal xml:lang="en">pomaceous fruit food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001163</IRI>
+        <Literal xml:lang="en">solanaceous fruit food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001164</IRI>
+        <Literal xml:lang="en">tomato food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001165</IRI>
+        <Literal xml:lang="en">solanaceous food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001175</IRI>
+        <Literal xml:lang="en">plant stem food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001242</IRI>
+        <Literal xml:lang="en">spice or herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001248</IRI>
+        <Literal xml:lang="en">fish food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001251</IRI>
+        <Literal xml:lang="en">avian food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001256</IRI>
+        <Literal xml:lang="en">dairy food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001257</IRI>
+        <Literal xml:lang="en">milk or milk based food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001261</IRI>
+        <Literal xml:lang="en">vegetable food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001262</IRI>
+        <Literal xml:lang="en">botanical fruit food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001264</IRI>
+        <Literal xml:lang="en">legume food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001274</IRI>
+        <Literal xml:lang="en">egg food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001275</IRI>
+        <Literal xml:lang="en">hen egg food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001293</IRI>
+        <Literal xml:lang="en">shellfish food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001611</IRI>
+        <Literal xml:lang="en">apple food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001615</IRI>
+        <Literal xml:lang="en">apricot food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001623</IRI>
+        <Literal xml:lang="en">atlantic salmon and trout food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001684</IRI>
+        <Literal xml:lang="en">carp food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001704</IRI>
+        <Literal xml:lang="en">celery food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001705</IRI>
+        <Literal xml:lang="en">leaf celery food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001714</IRI>
+        <Literal xml:lang="en">food product component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001717</IRI>
+        <Literal xml:lang="en">cherry food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001750</IRI>
+        <Literal xml:lang="en">cod food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001771</IRI>
+        <Literal xml:lang="en">cow milk based food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001785</IRI>
+        <Literal xml:lang="en">crab food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001792</IRI>
+        <Literal xml:lang="en">crustacean food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001811</IRI>
+        <Literal xml:lang="en">dill food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002029</IRI>
+        <Literal xml:lang="en">melon food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002044</IRI>
+        <Literal xml:lang="en">mollusc food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002071</IRI>
+        <Literal xml:lang="en">orange food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002075</IRI>
+        <Literal xml:lang="en">pacific salmon food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002084</IRI>
+        <Literal xml:lang="en">parsley food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002095</IRI>
+        <Literal xml:lang="en">peach food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002141</IRI>
+        <Literal xml:lang="en">plant fruit as vegetable food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002156</IRI>
+        <Literal xml:lang="en">plant stem or spear vegetable food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002161</IRI>
+        <Literal xml:lang="en">plum fruit food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002185</IRI>
+        <Literal xml:lang="en">rainbow trout food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002220</IRI>
+        <Literal xml:lang="en">salmon food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002239</IRI>
+        <Literal xml:lang="en">shrimp food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002244</IRI>
+        <Literal xml:lang="en">snail food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002277</IRI>
+        <Literal xml:lang="en">stone fruit food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002319</IRI>
+        <Literal xml:lang="en">trout food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002403</IRI>
+        <Literal xml:lang="en">food material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002487</IRI>
+        <Literal xml:lang="en">jujube fruit (whole, raw)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00003652</IRI>
+        <Literal xml:lang="en">jujube fruit (whole)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00004242</IRI>
+        <Literal xml:lang="en">animal food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal xml:lang="en">label</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/eco_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/doid/imports/eco_import.owl"
+     versionIRI="http://purl.obolibrary.org/obo/doid/releases/2023-07-24/imports/eco_import.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Sourced from http://purl.obolibrary.org/obo/eco/releases/2023-04-07/eco.owl</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007636"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007637"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007638"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007639"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007640"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007641"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007642"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007643"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007644"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007645"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007646"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007647"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0000000"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007636"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007647"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007647"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007637"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007639"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007637"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007640"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007637"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007641"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007647"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007642"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007641"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007643"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007641"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007644"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007641"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007647"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007646"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007647"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0007647"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ECO_0000000"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:MCC</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0000000</IRI>
+        <Literal>A type of information that is used to support an assertion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0000000</IRI>
+        <Literal>ECO:0000000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0000000</IRI>
+        <Literal>evidence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007636</IRI>
+        <Literal>A type of curator inference from authoritative resource based on information located in a queryable database and is optimized for computers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007636</IRI>
+        <Literal>ECO:0007636</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007636</IRI>
+        <Literal>curator inference from database</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://en.wikipedia.org/wiki/Encyclopedia</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007637</IRI>
+        <Literal>A type of curator inference from published work where the reference is to an entry in a compendium that provides summarized information on a subject.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007637</IRI>
+        <Literal>ECO:0007637</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007637</IRI>
+        <Literal>curator inference from encyclopedia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007638</IRI>
+        <Literal>A type of curator inference from encyclopedia where the reference is to a Wikipedia article.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007638</IRI>
+        <Literal>ECO:0007638</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007638</IRI>
+        <Literal>curator inference from Wikipedia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007639</IRI>
+        <Literal>A type of curator inference from encyclopedia where the reference is to an Encyclopedia Britannica article.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007639</IRI>
+        <Literal>ECO:0007639</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007639</IRI>
+        <Literal>curator inference from Britannica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007640</IRI>
+        <Literal>A type of curator inference from encyclopedia in which the reference is to an article in the National Library of Medicine&apos;s MedLinePlus encyclopedia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007640</IRI>
+        <Literal>ECO:0007640</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007640</IRI>
+        <Literal>curator inference from MedlinePlus encyclopedia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://en.wikipedia.org/wiki/Dictionary</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007641</IRI>
+        <Literal>A type of curator inference from published work in which the entry comes from a collection of words with definitions, usages, pronounciations, and more.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007641</IRI>
+        <Literal>ECO:0007641</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007641</IRI>
+        <Literal>curator inference from dictionary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007642</IRI>
+        <Literal>A type of curator inference from dictionary in which the reference is to an entry in the Oxford Dictionaries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007642</IRI>
+        <Literal>ECO:0007642</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007642</IRI>
+        <Literal>curator inference from Oxford Dictionary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007643</IRI>
+        <Literal>A type of curator inference from dictionary in which the reference is to an entry in the Merriam-Webster Dictionary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007643</IRI>
+        <Literal>ECO:0007643</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007643</IRI>
+        <Literal>curator inference from Merriam-Webster Dictionary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007644</IRI>
+        <Literal>A type of curator inference from dictionary in which the reference is to an entry in the National Library of Medicine&apos;s MedLinePlus dictionary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007644</IRI>
+        <Literal>ECO:0007644</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007644</IRI>
+        <Literal>curator inference from MedlinePlus dictionary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://en.wikipedia.org/wiki/Scientific_journal</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007645</IRI>
+        <Literal>A type of curator inference from published work reporting on research findings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007645</IRI>
+        <Literal>ECO:0007645</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007645</IRI>
+        <Literal>curator inference from journal publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007646</IRI>
+        <Literal>A type of curator inference from published work based on a book, which may be a reference to a URL (for ebooks) or a DOI.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007646</IRI>
+        <Literal>ECO:0007646</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007646</IRI>
+        <Literal>curator inference from book</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>ECO:RCT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007647</IRI>
+        <Literal>A type of curator inference that is from what is generally considered an authoritative source on the topic, including model organism databases, newspaper articles, books, journal publications, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007647</IRI>
+        <Literal>ECO:0007647</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ECO_0007647</IRI>
+        <Literal>curator inference from authoritative source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
+        <Literal>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
+        <Literal>definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#id</IRI>
+        <Literal>id</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

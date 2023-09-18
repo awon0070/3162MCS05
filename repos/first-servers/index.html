@@ -115,7 +115,7 @@
                 const jsonString = JSON.stringify(str);
                 console.log(str);
                 console.log(typeof(str));
-                fetch('http://localhost:8080/api/saveData', {
+                fetch('http://192.168.160.38:8080/api/saveData', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
@@ -127,14 +127,17 @@
 .then(response => response.json())
 .then(data => {
     console.log(data);
+    console.log(type(data.message));
 })
 .catch(error => {
-    console.error('Error:', error);
+    //console.error('Error:', error);
 });
                 
                
         });});
        
+
+        
 
         
 

@@ -1,0 +1,2689 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/cl_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/doid/imports/cl_import.owl"
+     versionIRI="http://purl.obolibrary.org/obo/doid/releases/2023-07-24/imports/cl_import.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Sourced from http://purl.obolibrary.org/obo/cl/releases/2023-07-20/cl.owl</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000135"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000136"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000300"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000312"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000325"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000327"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000349"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000351"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000362"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000393"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000404"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000408"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000413"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000417"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000442"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000443"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000446"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000447"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000451"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000453"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000457"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000458"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000467"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000473"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000499"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000500"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000501"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000503"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000511"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000527"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000529"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000540"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000542"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000568"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000570"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000586"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000593"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000622"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000623"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000630"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000637"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000639"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000641"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000646"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000667"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000669"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000670"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000675"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000710"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000723"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000763"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000766"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000767"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000771"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000785"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000786"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000842"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000845"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000945"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000946"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000988"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000990"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002319"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002320"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002321"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002418"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002625"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0009004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0011026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0011115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001433"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001593"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001599"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_4023154"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000586"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000408"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000586"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000025"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000025"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000540"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000034"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000034"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000034"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0011115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000723"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000036"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000039"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0011115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000057"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002320"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000058"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000058"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002320"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000062"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000062"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002320"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000062"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0011026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000065"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000067"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000065"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000710"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000067"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000067"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000068"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000068"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000075"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000075"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000076"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000079"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000079"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000081"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000988"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000083"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000083"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000084"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000542"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000094"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000094"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000766"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000095"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002319"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000097"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000766"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000097"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002274"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000100"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000527"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000115"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000115"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000123"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000125"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000126"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000127"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000128"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000128"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_4023154"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000135"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000499"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000136"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000325"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000136"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002320"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000138"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000153"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000138"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000667"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000145"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000325"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000148"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000147"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000148"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000152"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000152"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000153"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000327"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000153"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000154"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000163"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000163"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000163"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000165"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000163"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000165"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000527"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000165"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000540"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000165"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000710"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000166"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000166"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000568"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000167"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000174"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000182"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000182"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000417"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000182"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000183"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000185"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000185"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000185"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000187"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000187"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000393"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000187"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000192"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000192"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000211"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000213"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000215"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000216"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000511"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000216"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000630"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000216"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002625"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000219"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000221"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002321"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000222"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002321"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000223"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002321"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000225"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000226"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000226"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000233"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000233"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000225"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000233"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000458"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000233"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000763"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000219"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000325"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000473"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000235"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000235"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000235"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000766"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000236"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000945"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000237"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000240"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000237"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000311"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000237"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000240"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000240"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000242"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000242"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000312"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000242"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000710"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000244"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000244"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000255"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000300"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000413"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000300"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000586"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000311"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000325"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000312"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000237"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000312"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000325"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000327"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000499"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000349"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000349"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000351"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000349"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000362"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000362"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002159"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000393"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000211"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000404"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000211"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000408"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000408"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000300"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000408"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000412"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000413"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000417"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000412"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000442"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000473"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000442"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000443"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000443"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000167"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000446"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000167"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000446"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000447"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000451"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000451"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000451"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000842"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000453"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000766"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000453"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000990"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000457"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000458"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000458"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000467"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000467"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000167"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000473"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000499"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002320"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000500"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000500"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000501"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000174"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000501"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002174"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000503"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000593"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000503"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000511"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000154"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000527"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000540"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000529"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000710"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000393"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002319"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000542"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000542"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000842"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000568"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000570"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000570"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000458"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000570"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000710"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000586"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000593"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000593"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000174"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000622"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000622"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000154"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000623"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001067"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000630"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000637"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000637"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000166"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000637"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000167"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000637"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000639"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000637"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000641"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000163"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000646"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000667"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000327"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000669"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000669"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000630"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000669"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002320"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000669"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000670"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000670"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000219"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000670"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000675"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000675"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000300"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000710"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000710"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000723"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000723"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000219"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000988"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000763"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000988"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000766"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000766"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000763"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000767"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000771"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000785"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000785"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000786"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000946"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000842"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000842"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000845"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000785"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000845"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000945"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000542"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000946"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000945"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000990"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000451"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001061"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001063"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001065"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000542"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001067"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001065"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001200"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000945"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001201"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000236"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001201"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000622"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001599"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002076"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002076"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002078"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002078"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002132"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000499"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002159"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002174"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002174"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002190"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000312"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002242"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002260"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002260"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001593"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002274"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002274"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002303"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000529"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002309"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000467"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002309"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000639"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002319"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002319"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002320"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002321"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000548"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002418"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000222"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002625"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002625"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002625"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000219"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0008034"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002371"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0009004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002319"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0011026"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0011115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0011115"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001433"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001433"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001593"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001599"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001599"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001599"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_1001433"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0002319"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_2000074"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_4023154"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000125"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000000</IRI>
+        <Literal>cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000003</IRI>
+        <Literal>native cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000015</IRI>
+        <Literal>male germ cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000019</IRI>
+        <Literal>sperm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000021</IRI>
+        <Literal>female germ cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000025</IRI>
+        <Literal>egg cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000029</IRI>
+        <Literal>neural crest derived neuron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000034</IRI>
+        <Literal>stem cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000035</IRI>
+        <Literal>single fate stem cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000036</IRI>
+        <Literal>epithelial fate stem cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000039</IRI>
+        <Literal>germ line cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000055</IRI>
+        <Literal>non-terminally differentiated cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000057</IRI>
+        <Literal>fibroblast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000058</IRI>
+        <Literal>chondroblast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000062</IRI>
+        <Literal>osteoblast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000064</IRI>
+        <Literal>ciliated cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000065</IRI>
+        <Literal>ependymal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000066</IRI>
+        <Literal>epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000067</IRI>
+        <Literal>ciliated epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000068</IRI>
+        <Literal>duct epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000075</IRI>
+        <Literal>columnar/cuboidal epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000076</IRI>
+        <Literal>squamous epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000077</IRI>
+        <Literal>mesothelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000079</IRI>
+        <Literal>stratified epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000081</IRI>
+        <Literal>blood cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000083</IRI>
+        <Literal>epithelial cell of pancreas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000084</IRI>
+        <Literal>T cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000094</IRI>
+        <Literal>granulocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000095</IRI>
+        <Literal>neuron associated cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000097</IRI>
+        <Literal>mast cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000100</IRI>
+        <Literal>motor neuron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000115</IRI>
+        <Literal>endothelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000123</IRI>
+        <Literal>neuron associated cell (sensu Vertebrata)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000125</IRI>
+        <Literal>glial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000126</IRI>
+        <Literal>macroglial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000127</IRI>
+        <Literal>astrocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000128</IRI>
+        <Literal>oligodendrocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000135</IRI>
+        <Literal>fibrocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000136</IRI>
+        <Literal>fat cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000138</IRI>
+        <Literal>chondrocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000145</IRI>
+        <Literal>professional antigen presenting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000147</IRI>
+        <Literal>pigment cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000148</IRI>
+        <Literal>melanocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000150</IRI>
+        <Literal>glandular epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000151</IRI>
+        <Literal>secretory cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000152</IRI>
+        <Literal>exocrine cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000153</IRI>
+        <Literal>glycosaminoglycan secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000154</IRI>
+        <Literal>protein secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000163</IRI>
+        <Literal>endocrine cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000165</IRI>
+        <Literal>neuroendocrine cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000166</IRI>
+        <Literal>chromaffin cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000167</IRI>
+        <Literal>peptide hormone secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000174</IRI>
+        <Literal>steroid hormone secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000182</IRI>
+        <Literal>hepatocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000183</IRI>
+        <Literal>contractile cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000185</IRI>
+        <Literal>myoepithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000187</IRI>
+        <Literal>muscle cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000192</IRI>
+        <Literal>smooth muscle cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000211</IRI>
+        <Literal>electrically active cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000213</IRI>
+        <Literal>lining cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000215</IRI>
+        <Literal>barrier cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000216</IRI>
+        <Literal>Sertoli cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000219</IRI>
+        <Literal>motile cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000221</IRI>
+        <Literal>ectodermal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000222</IRI>
+        <Literal>mesodermal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000223</IRI>
+        <Literal>endodermal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000225</IRI>
+        <Literal>anucleate cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000226</IRI>
+        <Literal>single nucleate cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000233</IRI>
+        <Literal>platelet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000234</IRI>
+        <Literal>phagocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000235</IRI>
+        <Literal>macrophage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000236</IRI>
+        <Literal>B cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000237</IRI>
+        <Literal>keratinizing barrier epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000240</IRI>
+        <Literal>stratified squamous epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000242</IRI>
+        <Literal>Merkel cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000244</IRI>
+        <Literal>transitional epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000255</IRI>
+        <Literal>eukaryotic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000300</IRI>
+        <Literal>gamete</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000311</IRI>
+        <Literal>keratin accumulating cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000312</IRI>
+        <Literal>keratinocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000325</IRI>
+        <Literal>stuff accumulating cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000327</IRI>
+        <Literal>extracellular matrix secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000349</IRI>
+        <Literal>extraembryonic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000351</IRI>
+        <Literal>trophoblast cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000362</IRI>
+        <Literal>epidermal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000393</IRI>
+        <Literal>electrically responsive cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000404</IRI>
+        <Literal>electrically signaling cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000408</IRI>
+        <Literal>male gamete</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000412</IRI>
+        <Literal>polyploid cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000413</IRI>
+        <Literal>haploid cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000417</IRI>
+        <Literal>endopolyploid cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000442</IRI>
+        <Literal>follicular dendritic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000443</IRI>
+        <Literal>calcitonin secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000446</IRI>
+        <Literal>chief cell of parathyroid gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000447</IRI>
+        <Literal>carbohydrate secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000451</IRI>
+        <Literal>dendritic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000453</IRI>
+        <Literal>Langerhans cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000457</IRI>
+        <Literal>biogenic amine secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000458</IRI>
+        <Literal>serotonin secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000467</IRI>
+        <Literal>adrenocorticotropic hormone secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000473</IRI>
+        <Literal>defensive cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000499</IRI>
+        <Literal>stromal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000500</IRI>
+        <Literal>follicular epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000501</IRI>
+        <Literal>granulosa cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000503</IRI>
+        <Literal>theca cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000511</IRI>
+        <Literal>androgen binding protein secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000527</IRI>
+        <Literal>efferent neuron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000529</IRI>
+        <Literal>pigmented epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000540</IRI>
+        <Literal>neuron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000542</IRI>
+        <Literal>lymphocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000548</IRI>
+        <Literal>animal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000568</IRI>
+        <Literal>amine precursor uptake and decarboxylation cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000570</IRI>
+        <Literal>parafollicular cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000586</IRI>
+        <Literal>germ cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000593</IRI>
+        <Literal>androgen secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000622</IRI>
+        <Literal>acinar cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000623</IRI>
+        <Literal>natural killer cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000630</IRI>
+        <Literal>supporting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000637</IRI>
+        <Literal>chromophil cell of anterior pituitary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000639</IRI>
+        <Literal>basophil cell of pars distalis of adenohypophysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000641</IRI>
+        <Literal>chromophobe cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000646</IRI>
+        <Literal>basal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000667</IRI>
+        <Literal>collagen secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000669</IRI>
+        <Literal>pericyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000670</IRI>
+        <Literal>primordial germ cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000675</IRI>
+        <Literal>female gamete</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000710</IRI>
+        <Literal>neurecto-epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000723</IRI>
+        <Literal>somatic stem cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000738</IRI>
+        <Literal>leukocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000763</IRI>
+        <Literal>myeloid cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000766</IRI>
+        <Literal>myeloid leukocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000767</IRI>
+        <Literal>basophil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000771</IRI>
+        <Literal>eosinophil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000785</IRI>
+        <Literal>mature B cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000786</IRI>
+        <Literal>plasma cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000842</IRI>
+        <Literal>mononuclear cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000845</IRI>
+        <Literal>marginal zone B cell of spleen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000945</IRI>
+        <Literal>lymphocyte of B lineage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000946</IRI>
+        <Literal>antibody secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000988</IRI>
+        <Literal>hematopoietic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000990</IRI>
+        <Literal>conventional dendritic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0001061</IRI>
+        <Literal>abnormal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0001063</IRI>
+        <Literal>neoplastic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0001064</IRI>
+        <Literal>malignant cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0001065</IRI>
+        <Literal>innate lymphoid cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0001067</IRI>
+        <Literal>group 1 innate lymphoid cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0001200</IRI>
+        <Literal>lymphocyte of B lineage, CD19-positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0001201</IRI>
+        <Literal>B cell, CD19-positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002064</IRI>
+        <Literal>pancreatic acinar cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002076</IRI>
+        <Literal>endo-epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002077</IRI>
+        <Literal>ecto-epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002078</IRI>
+        <Literal>meso-epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002132</IRI>
+        <Literal>stromal cell of ovary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002150</IRI>
+        <Literal>epithelioid macrophage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002159</IRI>
+        <Literal>general ecto-epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002174</IRI>
+        <Literal>follicular cell of ovary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002190</IRI>
+        <Literal>squamous cell of epidermis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002242</IRI>
+        <Literal>nucleate cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002260</IRI>
+        <Literal>epithelial cell of parathyroid gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002274</IRI>
+        <Literal>histamine secreting cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002303</IRI>
+        <Literal>pigmented ciliary epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002309</IRI>
+        <Literal>corticotroph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002319</IRI>
+        <Literal>neural cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002320</IRI>
+        <Literal>connective tissue cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002321</IRI>
+        <Literal>embryonic cell (metazoa)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002371</IRI>
+        <Literal>somatic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002418</IRI>
+        <Literal>hemangioblast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0002625</IRI>
+        <Literal>seminiferous tubule epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0008000</IRI>
+        <Literal>non-striated muscle cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0008007</IRI>
+        <Literal xml:lang="en">visceral muscle cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0008019</IRI>
+        <Literal>mesenchymal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0008034</IRI>
+        <Literal xml:lang="en">mural cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0009004</IRI>
+        <Literal>retinal cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0011026</IRI>
+        <Literal>progenitor cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0011115</IRI>
+        <Literal>precursor cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_1001433</IRI>
+        <Literal>epithelial cell of exocrine pancreas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_1001593</IRI>
+        <Literal>parathyroid glandular cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_1001599</IRI>
+        <Literal>pancreas exocrine glandular cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_2000004</IRI>
+        <Literal>CL:2000004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_2000004</IRI>
+        <Literal>pituitary gland cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_2000064</IRI>
+        <Literal>CL:2000064</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_2000064</IRI>
+        <Literal>ovarian surface epithelial cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_2000074</IRI>
+        <Literal>CL:2000074</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_2000074</IRI>
+        <Literal>splenocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_4023154</IRI>
+        <Literal>myelinating glial cell</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
